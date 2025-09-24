@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+           
+        }
+        .page{
+             background-image: url(background57.jpeg);
+             background-repeat: no-repeat ;
+             height: 830px;
+             width: 1500px;
+             background-size: cover;
+             background-position: center;
+             
+        }
+        .login_page
+        {
+           
+           font-family: Arial, sans-serif;
+           flex-wrap: wrap; /* lets elements go to next line if screen is small */
+           font-weight: bold;
+           align-items: center;
+           margin-left:500px;
+
+            background-image: url(clear.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 835px;
+            width: 1000px;
+            display: flex;
+            
+        }
+
+    </style>
+</head>
+<body>
+   <div class="page">
+    <div class="img_add"></div>
+
+<div class="login_page">
+    <form >
+        <h1>Student Login Page</h1>
+            Roll no: <input type="roll number"><br>
+        <br>
+        Stundents name:- <input type="Name" placeholder="First Name"> <input type="surname" placeholder="Last Name"><br>
+        <br>
+        D.O.B:<input type="date"><br>
+        <br>
+        Mobile no:  <input type="number" placeholder="mobile number"><br>
+        <br>
+        Email i.d: <input type="eamil" placeholder="@gmail.com"><br>
+        <br>
+        password: <input type="password" placeholder="Passowrd" ><br>
+        <br>
+
+      Gender: <label for="male">male:</label>
+      <input type="radio" name="gender" id="male">
+      <label for="female">female:</label>
+      <input type="radio" name="gender" id="female">
+      <label for="other">other:</label>
+      <input type="radio" name="gender" id="other">
+      <br><br>
+
+      Department:
+              <label for="CSE">CSE:</label>
+        <input type="checkbox" name="BRANCH" id="CSE">
+         <label for="IT">IT:</label>
+        <input type="checkbox" name="BRANCH" id="IT">
+         <label for="ECE">ECE:</label>
+        <input type="checkbox" name="BRANCH" id="ECE">
+         <label for="Civil">Civil:</label>
+        <input type="checkbox" name="BRANCH" id="Civil">
+        <br><br>
+
+        Course: <input type="search" placeholder="select current course's"><br><br>
+
+        Student photo: <input type="file" placeholder="choose file"><br><br>
+
+        City: <input type="text" placeholder="Enter your city"><br><br>
+
+        Address: <input type="text" placeholder="Enter your current address"><br><br>
+
+        <button>Register</button>
+        
+        
+    </form>
+   </div>
+</div>
+</body>
+</html>
